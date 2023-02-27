@@ -85,7 +85,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -100,7 +100,26 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
+Consolidated into one class
+*/
+.benefit {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
 
+.benefit img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*
+Consolidated all h3 and image tags
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -133,6 +152,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+*/
 
 .search-engine-optimization {
     margin-bottom: 20px;
